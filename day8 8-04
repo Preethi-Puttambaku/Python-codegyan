@@ -1,0 +1,29 @@
+#lists
+#the output is in given order so it is ordered collection
+#lst = [1,2,3,1,2,2.5,"hi"]
+print(lst)
+#list supports indexing and slicing
+'''print(lst[-2])
+print(lst[-2:3:-1])
+print(lst[3:-2:1])
+#list is mutable we can the values in the list 
+lst[1] = 100
+print(lst)'''
+#empty list representation
+'''lst1 = []
+lst2 = list() #it is a function it also created empty list
+print(type(lst1),type(lst2))
+#reading list on integers from user
+lst = input()
+print(lst,type(lst)) # gives output as string
+lst = input().strip().split()
+print(lst,type(lst)) # it willgive output in strings 
+lst= list(map(int,input().split()) #it will give output in the int in list
+print(lst,type(lst))'''#in the middle i we give stirngs(ab) it will give value error
+#list operations
+#list concatenation
+lst1 = [1,2,4]
+lst2 = [4,5]
+print(lst1+lst2)
+print(lst1 *3)
+print([0] *10)#if we want 10 zeros in the list we use this 
